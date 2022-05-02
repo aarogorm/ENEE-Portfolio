@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #FF6363;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Caveat', cursive;
+  font-size: 5.625rem;
+  color: #FF6363;
+ }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #5C94BD;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: .75rem;
+}
+
+.logo {
+  padding-top: 10px;
+  position: relative;
+  top: 35px;
+  border-radius: 50%;
+  width: 75px;
+}
+
+.navigation {
+  position: relative;
+  background-color: #23347D;
+  z-index: 1;
+  margin: auto auto auto auto;
+}
+
+.container {
+  position: sticky;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.top {
+  background-color: #23347D;
+  position: relative;
+  padding-top: 100px;
+}
+
+.table {
+
+}
+
+table {
+  display: inline-block;
+  text-align: center;
+
+}
+
+li {
+  color: white;
+}
+
+.bottom-container {
+  background-color: #FF6363;
+
+}
+
+.personal-info {
+  color: white;
+}
+
+.ethics {
+  width: 600px;
+}
+
+.computer {
+  border-radius: 50%;
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+
+.about-me {
+  color: #40514E;
+  margin-bottom: 75px;
+}
+
+hr {
+  color: gray;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top: 7.5px dotted;
+  width: 60px;
+  margin-bottom: 75px;
+}
+
+.copyright {
+  margin: 75px auto auto auto;
+  position: relative;
+  bottom: 25px;
+  color: black;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.15rem;
+  margin: auto 75px auto 75px;
+  position: relative;
+  top: 25px;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: gray;
+}
+
+.doc {
+  outline: none;
+  display: inline-block;
+  padding-top: 40px;
+  height: 75%;
+  width: 50%;
+}
+
+.intro-text {
+  padding-top: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.personal {
+  padding-bottom: 50px;
+}
+
+.middle-container {
+  margin-top: 0;
+  background-color: #FF6363;
+}
